@@ -1,19 +1,10 @@
-import react from 'react'
+import React from 'react'
 import './style.css'
-import Calendar from './class-components'
-
+import RefsFunc from './refs-func'
 
 export default function App (){
 
-  return (
-    <>
-    <center>
-    <h2>Hi DeveloperThai.com</h2>
-    <div className='title' >React & React Native</div>
-    </center>
-    <Calendar></Calendar>
-    </>
-  )
+  return <RefsFunc/>
 }
 
 
